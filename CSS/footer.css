@@ -1,0 +1,85 @@
+@import url(./global.css);
+
+.footer{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.newsletter{
+    width: 50%;
+    margin-top: 60px;
+}
+
+.list-menu-title{
+    margin-bottom: 20px;
+    font-family: var(--font-global);
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.element-list{
+    margin-bottom: 10px;
+    font-family: var(--font-global);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.newsletter-text{
+    font-family: var(--font-global);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.newsletter-text-small{
+    font-family: var(--font-global);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.button-email-newsletter{
+    height: 48px;
+    width: 119px;
+    border-radius: 10px;
+}
+
+.newsletter-email{
+    height: 48px;
+    width: 365px;
+    border-radius: 10px;
+}
+
+.menu{
+    line-height: 15px;
+}
+
+.footer-end{
+    margin-top: 20px;
+    border-top: 2px solid #BBBBBB;
+}
+
+.footer-end-text{
+    font-family: var(--font-global) ;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+
+/*--------------------------Section footer-----------------------------*/
+

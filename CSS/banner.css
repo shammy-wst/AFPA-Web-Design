@@ -1,0 +1,84 @@
+@import url(./global.css);
+
+
+/* BANNER */
+
+.banner {
+    /* Centrer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Background vert */
+    width: 100%;
+    height: auto;
+    background-color: var(--color-dark-green);
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+.banner__inner {
+    /* Positionner */
+    display: flex;
+    flex-direction: row; /* direction du content*/
+    justify-content: space-between;
+    /* Responsive */
+    width: 75%;
+}
+
+.banner__inner__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.banner__inner__right {
+    display: flex;
+    justify-content: flex-end; /* content aligné sur la fin droite de son parent*/
+    width: 30%;
+}
+
+.banner__inner__left>.title:first-child {
+    margin-bottom: 32px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 44px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.searchbar__image {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    margin-right: 6px;
+}
+
+.searchbar__input {
+    border: none;
+    outline: none;
+    /* padding-left: 16px; */
+}
+
+/* FONTS */
+
+.title {
+    font-family: var(--font-global);
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: #333;
+}
+
+/*--------------responsive-------------------*/

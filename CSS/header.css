@@ -1,0 +1,86 @@
+@import url(./global.css);
+
+/* HEADER */
+
+br{ /* separareur de content*/
+    width: 10px;
+    margin: 10px;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: white;
+    position: fixed; /*sticky header*/
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-global);
+    width: 100%;
+    max-width: 80%;
+    height: 100px;
+}
+
+header .logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+header .logo img{
+    height: 100%;
+    width: auto;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: var(--color-dark-gray);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.btn-header {
+    margin-left: 8px;
+    padding: 0 16px;
+    height: 32px;
+    border-radius: 100px;
+    border: none;
+    background-color: var(--color-pink);
+    color: white;
+    font-family: var(--font-global);
+    text-align: center;
+    transition: all;
+    cursor: pointer;
+}
+
+.btn-header:hover {
+    background-color: var(--color-dark-green)}
+
+.btn:active {
+    background-color: var(--color-dark-green);
+    box-shadow: 0 5px #EBEBEB;
+    transform: translateY(4px);
+}
+
+.search-contact{
+    display: flex;
+    align-items: center;
+}

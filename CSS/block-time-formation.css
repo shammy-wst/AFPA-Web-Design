@@ -1,0 +1,89 @@
+@import url(./global.css);
+
+/*-----------------Choix de formation----------------------------------*/
+
+.formation-choice{
+    position: relative;
+    height: 478px;
+    padding-top: 1px;
+    background-color: #efefef;
+}
+
+.formation-content{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.formation-choice-title{
+    font-weight: 900;
+    margin-bottom: 60px;
+    font-family: var(--font-global);
+    font-size: 2.5rem;
+    margin-top: 90px;
+    z-index: 3;
+}
+
+.choice-image{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.choice-selection{
+    display: flex;
+    justify-content: space-between;
+    width: 70.375rem;
+    margin: 0 auto;
+}
+
+.choice{
+    padding: 10px;
+    width: 27.75rem;
+    height: 12.375rem;
+    background-color: white;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+.choice-title{
+    font-family: var(--font-global);
+    font-size: 1.875rem;
+    z-index: 2;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.choice-text{
+    font-family: var(--font-global);
+    font-size: 1.25rem;
+    text-align: center;
+    width: 24.875rem;
+    margin: 0 auto 20px;
+}
+
+.choice-link{
+    box-sizing: initial;
+    text-decoration: none;
+    color: white;
+    background: var(--color-pink);
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin: 8px auto;
+    font-family: var(--font-global);
+}
+
+.choice-link image{
+    margin-left: 0px;
+}
+
+.one{
+    width: 200px;
+}
+
+.two{
+    width: 270px;
+}

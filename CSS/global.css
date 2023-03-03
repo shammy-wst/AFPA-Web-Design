@@ -1,0 +1,19 @@
+/* GLOBAL PAGE */
+
+html{
+    --color-pink: #E3007E;
+    --color-dark-green: #86BC24;
+    --color-light-green : #aeef37;
+    --color-light-gray : #736363;
+    --color-dark-gray : #3c3434;
+    --font-global: "roboto", sans-serif;
+}
+
+.wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    background: #f2f3f5;
+}

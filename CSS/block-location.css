@@ -1,0 +1,59 @@
+@import url(./global.css);
+
+/*Chiffre et localisation de l'Afpa*/
+.location{
+    width: 75%;
+    margin: 0 auto ;
+    margin-top: 50px;
+    display: flex;
+    height: 500px;
+}
+
+.location-info{
+    margin-top:70px ;
+    width: 70%;
+}
+
+.list-location-number{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location-number-text{
+    font-family: var(--font-global);
+    color: #8D7C7C;
+    font-size: 20px;
+    font-weight: 500;
+    width: 70%;
+}
+
+.location-title{
+    font-family: var(--font-global);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.black-number{
+    font-family: var(--font-global);
+    color: var(--color-dark-gray);
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.green-number{
+    font-family: var(--font-global);
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--color-dark-green);
+}
+
+.location-number{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 20px;
+}
+
+.image-france img{
+    width: 90%;
+}
