@@ -87,3 +87,39 @@
 .two{
     width: 270px;
 }
+
+@media screen and (max-width:1500px) {
+
+    .choice-selection{
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+
+    .formation-choice{
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .choice{
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and ( max-width:650px) {
+  .choice{
+    width: 100%;
+  }   
+
+  .choice-text{
+    width: 100%;
+  }
+
+  .two{
+    width: 200px;
+  }
+
+  .formation-choice{
+    margin: 0;
+  }
+}

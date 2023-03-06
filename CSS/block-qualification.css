@@ -89,3 +89,16 @@
         height: 67px;
     }
     /*--------------------------partie responsive-----------------------------*/
+
+    @media screen and (max-width:1500px) {
+        .all-adventage-formation{
+            width: 100%;
+            justify-content: center;
+        }
+
+        .list-logo{
+            width: 82%;
+            flex-wrap: wrap;
+        }
+        
+    }

@@ -57,3 +57,28 @@
 .image-france img{
     width: 90%;
 }
+
+@media screen and (max-width:1500px) {
+    .location{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .location-info{
+        width: 100%;
+    }
+
+    .location-number{
+        width: 50%;
+    }
+
+    .list-location-number{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .location-number{
+        width: 100%;
+    }
+}

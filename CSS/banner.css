@@ -82,3 +82,37 @@
 }
 
 /*--------------responsive-------------------*/
+
+@media screen and (max-width:1500px){
+
+    .banner__inner__left{
+        width: 100%;
+    }
+
+    .banner__inner{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:1750px){
+    .banner__inner__right{
+        opacity: 0;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .searchbar{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 50px;
+    }
+
+    .banner{
+        margin: 0;
+    }
+}

@@ -69,7 +69,28 @@
 /* partie responsive*/
 @media screen and (max-width:1400px){
     .main-block{
-        height: 1000px;
+        height: auto;
+        padding-bottom: 20px;
     } 
+
+    .information-text{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:650px){
+    .formations{
+        width: 100%;
+    }
+
+    .information-text{
+        font-size: 2rem;
+    }
+
+    .information-text-fat{
+        font-size: 5rem;
+    }
+
 
 }

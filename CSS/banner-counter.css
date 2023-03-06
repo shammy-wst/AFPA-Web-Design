@@ -121,3 +121,44 @@ border-radius: 7px;
   transform: translateY(4px);
   color: white;
 }
+
+@media screen and (max-width:1500px){
+    
+    .card__inner{
+        flex-wrap: wrap;
+    }
+
+    .background-total-card{
+        width: 100%;
+    }
+
+    .card__inner__right{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .logo__next__work{
+        flex-wrap: wrap;
+    }
+
+    .card-bg-fill, .card-bg-tick{
+        width: 100%;
+    }
+
+    .btn-card{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .card-bg-fill h2{
+        font-size: 30px;
+    }
+
+    .btn-card{
+        font-size: 18px;
+    }
+}

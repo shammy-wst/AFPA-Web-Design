@@ -83,3 +83,37 @@
 
 /*--------------------------Section footer-----------------------------*/
 
+
+@media screen and (max-width:650px) {
+    .newsletter-email{
+        width: 80%;
+    }
+
+    .newsletter-text{
+        width: 85%;
+        font-size: 16px;
+    }
+
+    .newsletter-text-small{
+        font-size: 14px;
+        width: 80%;
+    }
+
+
+    .footer{
+        width: 80%;
+        display: block ;
+        padding: 20px;
+    }
+
+    .newsletter{
+        line-height: 60px;
+        width: 100%;
+    }
+
+    .footer-menu{
+        margin-top: 60px;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
